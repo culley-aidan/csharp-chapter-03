@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.lblDays = new System.Windows.Forms.Label();
+            this.txtDays = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // lblDays
@@ -40,11 +41,19 @@
             this.lblDays.TabIndex = 0;
             this.lblDays.Text = "Days:";
             // 
+            // txtDays
+            // 
+            this.txtDays.Location = new System.Drawing.Point(53, 10);
+            this.txtDays.Name = "txtDays";
+            this.txtDays.Size = new System.Drawing.Size(42, 20);
+            this.txtDays.TabIndex = 1;
+            // 
             // CarRentalInteractiveGUI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.txtDays);
             this.Controls.Add(this.lblDays);
             this.Name = "CarRentalInteractiveGUI";
             this.Text = "Car Rentals";
@@ -56,6 +65,7 @@
         #endregion
 
         private System.Windows.Forms.Label lblDays;
+        private System.Windows.Forms.TextBox txtDays;
     }
 }
 
