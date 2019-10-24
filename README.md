@@ -5,4 +5,4 @@ C# Programming Chapter 3
 - [X] 03 - CarRentalInterativeGUI
 - [X] 04 - EggInteractiveGUI
 - [X] 06 – PayrollGUI
-- [ ] 07 – MonthNamesGUI
+- [X] 07 – MonthNamesGUI
