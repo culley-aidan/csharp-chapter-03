@@ -70,12 +70,13 @@
             // 
             // btnCalculate
             // 
-            this.btnCalculate.Location = new System.Drawing.Point(131, 13);
+            this.btnCalculate.Location = new System.Drawing.Point(196, 10);
             this.btnCalculate.Name = "btnCalculate";
             this.btnCalculate.Size = new System.Drawing.Size(101, 36);
             this.btnCalculate.TabIndex = 4;
             this.btnCalculate.Text = "Calculate Rental Fee";
             this.btnCalculate.UseVisualStyleBackColor = true;
+            this.btnCalculate.Click += new System.EventHandler(this.btnCalculate_Click);
             // 
             // lblTotalFee
             // 
@@ -85,12 +86,13 @@
             this.lblTotalFee.Size = new System.Drawing.Size(35, 13);
             this.lblTotalFee.TabIndex = 5;
             this.lblTotalFee.Text = "label1";
+            this.lblTotalFee.Visible = false;
             // 
             // CarRentalInteractiveGUI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(309, 146);
             this.Controls.Add(this.lblTotalFee);
             this.Controls.Add(this.btnCalculate);
             this.Controls.Add(this.txtMiles);
