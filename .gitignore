@@ -1,0 +1,12 @@
+
+HelloVisualWorld/.vs/HelloVisualWorld/v16/.suo
+*.lock
+*.ide
+*.ide-shm
+*.ide-wal
+*.exe
+HelloVisualWorld/HelloVisualWorld/bin/Debug/HelloVisualWorld.exe.config
+*.pdb
+*.cache
+HelloVisualWorld/HelloVisualWorld/obj/Debug/HelloVisualWorld.csproj.FileListAbsolute.txt
+HelloVisualWorld/HelloVisualWorld/obj/Debug/HelloVisualWorld.Properties.Resources.resources
